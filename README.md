@@ -2,11 +2,12 @@
 
 I'm a software engineer moving into cybersecurity. I'm pursuing WGU's M.S. in Cybersecurity and Information Assurance and building a portfolio alongside it.
 
-### Currently building
+### Portfolio
 
-**Flagship 1: Application Security pipeline** (in progress)
+**[Flagship 1: Application Security Pipeline](https://github.com/fernandojcardenas/owasp-top10-ci-pipeline)** — done
 
-A deliberately vulnerable app, a hardened version with documented fixes, and a CI pipeline running SAST, SCA, and DAST checks on every pull request.
+A Flask notes app seeded with 7 OWASP Top 10 (2021) vulnerabilities, each one exploited and fixed with a documented writeup (screenshots included), plus a real 3-stage CI/CD security pipeline — SAST, SCA, and DAST — running on every push via GitHub Actions.
 
-More flagships coming as I work through cloud security, detection engineering, and AI/LLM security.
+**Currently building:** Flagship 2, and working through cloud security, detection engineering, and AI/LLM security along the way.
+
 Connect with me on [LinkedIn](https://www.linkedin.com/in/fernandoelicardenas).
