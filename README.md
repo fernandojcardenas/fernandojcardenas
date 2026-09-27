@@ -1,13 +1,29 @@
 ## Hi, I'm Fernando
 
-I'm a software engineer moving into cybersecurity. I'm pursuing WGU's M.S. in Cybersecurity and Information Assurance and building a portfolio alongside it.
+I'm a software engineer who builds systems, from mobile apps to radio receivers and firmware, and secures them.
 
-### Portfolio
+- Active-duty U.S. Coast Guard electronics technician
+- B.S. Software Engineering, Western Governors University (WGU)
+- Next: WGU M.S. Computer Science (starting January 2027), then M.S. Cybersecurity and Information Assurance
 
-**[Flagship 1: Application Security Pipeline](https://github.com/fernandojcardenas/owasp-top10-ci-pipeline)** — done
+My portfolio has two tracks that tell one story: build real systems, then break and defend them.
 
-A Flask notes app seeded with 7 OWASP Top 10 (2021) vulnerabilities, each one exploited and fixed with a documented writeup (screenshots included), plus a real 3-stage CI/CD security pipeline — SAST, SCA, and DAST — running on every push via GitHub Actions.
+### Software engineering
 
-**Currently building:** Flagship 2, and working through cloud security, detection engineering, and AI/LLM security along the way.
+| Project | What it shows | Status |
+|---|---|---|
+| **[fleet-ops-ios](https://github.com/fernandojcardenas/fleet-ops-ios)** | SwiftUI + Firebase fleet-maintenance app, live on the App Store and used daily by a rental business. It has Firestore security rules hardened to a staff allowlist with 28 emulator tests, a STRIDE threat model, and CI with a secrets scan and iOS build. | ✅ Shipped |
+| ais-edge | Raspberry Pi and software-defined radio receiving public ship AIS broadcasts: a C++/Rust ingestion service, track storage and anomaly flags | Planned, 2027 |
+| vessel-anomaly-ml | Vessel trajectory anomaly model trained on public AIS data and deployed to the edge device | Planned, 2027 |
+| secure-sensor-node | ESP32-S3 sensor node with secure boot, flash encryption and signed OTA updates | Planned, 2028 |
+
+### Cybersecurity
+
+| Project | What it shows | Status |
+|---|---|---|
+| **[owasp-top10-ci-pipeline](https://github.com/fernandojcardenas/owasp-top10-ci-pipeline)** | Flask app with 7 seeded OWASP Top 10 (2021) vulnerabilities, each exploited and fixed with a documented write-up, plus a SAST/SCA/DAST pipeline on every push | ✅ Done |
+| **[flagship2-cloud-security-pipeline](https://github.com/fernandojcardenas/flagship2-cloud-security-pipeline)** | Terraform AWS baseline with six seeded misconfigurations, exploit-and-fix write-ups, and a Checkov/tfsec/gitleaks/Prowler pipeline | 🚧 In progress |
+| Detection engineering | Detections written, tested and versioned as code | Planned, 2028 |
+| AI/LLM security | Red-teaming an LLM feature against the OWASP Top 10 for LLM applications | Planned, 2028 |
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/fernandoelicardenas).
