@@ -13,7 +13,7 @@ My portfolio has two tracks that tell one story: build real systems, then break 
 | Project | What it shows | Status |
 |---|---|---|
 | **[fleet-ops-ios](https://github.com/fernandojcardenas/fleet-ops-ios)** | SwiftUI + Firebase fleet-maintenance app, live on the App Store and used daily by a rental business. It has Firestore security rules hardened to a staff allowlist with 28 emulator tests, a STRIDE threat model, and CI with a secrets scan and iOS build. | ✅ Shipped |
-| ais-edge | Raspberry Pi and software-defined radio receiving public ship AIS broadcasts: a C++/Rust ingestion service, track storage and anomaly flags | Planned, 2027 |
+| **[maritime-tracker](https://github.com/fernandojcardenas/maritime-tracker)** | Real-time vessel tracking in C++20 on public AIS data. A decoder for untrusted radio messages, checked field by field against an independent decoder on 85,000 real messages and fuzzed with sanitizers; next come a Kalman-filter tracker, anomaly detection and COLREGs collision risk. | 🚧 In progress |
 | vessel-anomaly-ml | Vessel trajectory anomaly model trained on public AIS data and deployed to the edge device | Planned, 2027 |
 | secure-sensor-node | ESP32-S3 sensor node with secure boot, flash encryption and signed OTA updates | Planned, 2028 |
 
@@ -27,5 +27,4 @@ My portfolio has two tracks that tell one story: build real systems, then break 
 | AI/LLM security | Red-teaming an LLM feature against the OWASP Top 10 for LLM applications | Planned, 2028 |
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/fernandoelicardenas).
-
 
