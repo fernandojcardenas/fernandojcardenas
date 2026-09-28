@@ -27,3 +27,5 @@ My portfolio has two tracks that tell one story: build real systems, then break 
 | AI/LLM security | Red-teaming an LLM feature against the OWASP Top 10 for LLM applications | Planned, 2028 |
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/fernandoelicardenas).
+
+
