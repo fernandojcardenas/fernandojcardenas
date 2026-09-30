@@ -14,7 +14,7 @@ My portfolio has two tracks that tell one story: build real systems, then break 
 |---|---|---|
 | **[fleet-ops-ios](https://github.com/fernandojcardenas/fleet-ops-ios)** | SwiftUI + Firebase fleet-maintenance app, live on the App Store and used daily by a rental business. It has Firestore security rules hardened to a staff allowlist with 28 emulator tests, a STRIDE threat model, and CI with a secrets scan and iOS build. | ✅ Shipped |
 | **[maritime-tracker](https://github.com/fernandojcardenas/maritime-tracker)** | Real-time vessel tracking in C++20 on public AIS data, with a live browser map. A fuzzed decoder for untrusted radio messages, live ingest, a Kalman-filter tracker, anomaly detection, COLREGs collision risk and a benchmarked spatial index, served over its own WebSocket server and shipped as a Docker image. Every result is measured on real Norwegian and Danish traffic and re-checked in CI. | ✅ Done |
-| vessel-anomaly-ml | Vessel trajectory anomaly model trained on public AIS data and deployed to the edge device | Planned, 2027 |
+| vessel-anomaly-ml | Learned vessel-trajectory anomaly model trained on public AIS data, measured against maritime-tracker's rule-based detector | Planned, 2027 |
 | secure-sensor-node | ESP32-S3 sensor node with secure boot, flash encryption and signed OTA updates | Planned, 2028 |
 
 ### Cybersecurity
