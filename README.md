@@ -22,7 +22,7 @@ My portfolio has two tracks that tell one story: build real systems, then break 
 | Project | What it shows | Status |
 |---|---|---|
 | **[owasp-top10-ci-pipeline](https://github.com/fernandojcardenas/owasp-top10-ci-pipeline)** | Flask app with 7 seeded OWASP Top 10 (2021) vulnerabilities, each exploited and fixed with a documented write-up, plus a SAST/SCA/DAST pipeline on every push | ✅ Done |
-| **[flagship2-cloud-security-pipeline](https://github.com/fernandojcardenas/flagship2-cloud-security-pipeline)** | Terraform AWS baseline with six seeded misconfigurations, exploit-and-fix write-ups, and a Checkov/tfsec/gitleaks/Prowler pipeline | 🚧 In progress |
+| **[flagship2-cloud-security-pipeline](https://github.com/fernandojcardenas/flagship2-cloud-security-pipeline)** | Terraform AWS baseline with six seeded CIS misconfigurations, each fixed with a write-up and a regression test. Checkov (plus two custom rules), tfsec, gitleaks and a deploy to a local AWS emulator run on every push, with no AWS account needed. | ✅ Done |
 | Detection engineering | Detections written, tested and versioned as code | Planned, 2028 |
 | AI/LLM security | Red-teaming an LLM feature against the OWASP Top 10 for LLM applications | Planned, 2028 |
 
