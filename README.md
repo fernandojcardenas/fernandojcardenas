@@ -17,6 +17,15 @@ My portfolio has two tracks that tell one story: build real systems, then break 
 | **[llm-inference-cpp](https://github.com/fernandojcardenas/llm-inference-cpp)** | LLM inference engine written from scratch in C++20 for open-weights models on a laptop CPU. Hardened, fuzzed model loading (safetensors and GGUF); a tokenizer whose token ids match Hugging Face on 4.5 million inputs; a forward pass that matches PyTorch layer by layer; a KV cache, sampling and a chat CLI; a thread pool + AVX2/NEON matmul; 8-bit/4-bit quantization; and an OpenAI-compatible chat completions server (streaming, request limits, Docker image), checked against llama.cpp on the same machine, weights and API shape. | ✅ Done (7 of 7 milestones) |
 | secure-sensor-node | ESP32-S3 sensor node with secure boot, flash encryption and signed OTA updates | Planned, 2028 |
 
+#### llm-inference-cpp in action
+
+Real terminal output from an actual run on the SmolLM2-135M-Instruct model:
+
+<img src="images/llm-inference-cpp/llmi-chat-demo.png" alt="llmi-chat: two real turns" width="500">
+<img src="images/llm-inference-cpp/llmi-server-demo.png" alt="llmi-server: health check and a chat completion" width="500">
+
+More (including a streamed response) in the [repo's README](https://github.com/fernandojcardenas/llm-inference-cpp#screenshots).
+
 ### Cybersecurity
 
 | Project | What it shows | Status |
