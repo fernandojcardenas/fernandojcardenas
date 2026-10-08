@@ -17,15 +17,6 @@ My portfolio has two tracks that tell one story: build real systems, then break 
 | **[llm-inference-cpp](https://github.com/fernandojcardenas/llm-inference-cpp)** | LLM inference engine written from scratch in C++20 for open-weights models on a laptop CPU. Hardened, fuzzed model loading (safetensors and GGUF); a tokenizer whose token ids match Hugging Face on 4.5 million inputs; a forward pass that matches PyTorch layer by layer; a KV cache, sampling and a chat CLI; a thread pool + AVX2/NEON matmul; 8-bit/4-bit quantization; and an OpenAI-compatible chat completions server (streaming, request limits, Docker image), checked against llama.cpp on the same machine, weights and API shape. | ✅ Done (7 of 7 milestones) |
 | **[vehicle-network-security-lab](https://github.com/fernandojcardenas/vehicle-network-security-lab)** | Security lab for heavy-vehicle networks (SAE J1939, the CAN protocol of trucks and ground vehicles) in C++20. A passive, fuzzed decoder checked against real truck traffic and an independent implementation; a simulated truck on a bit-accurate CAN bus that runs live on Linux SocketCAN; and a passive intrusion detector that learns a truck's normal behaviour and catches five attack types on real Kenworth traffic with no false alarms over the held-out window. Next: authenticated messages and a hardened embedded-Linux gateway (SELinux, default-deny firewall) booted in CI. No hardware needed. | 🔨 In progress (M3 of 6) |
 
-#### llm-inference-cpp in action
-
-Real terminal output from an actual run on the SmolLM2-135M-Instruct model:
-
-<img src="images/llm-inference-cpp/llmi-chat-demo.png" alt="llmi-chat: two real turns" width="500">
-<img src="images/llm-inference-cpp/llmi-server-demo.png" alt="llmi-server: health check and a chat completion" width="500">
-
-More (including a streamed response) in the [repo's README](https://github.com/fernandojcardenas/llm-inference-cpp#screenshots).
-
 ### Cybersecurity
 
 | Project | What it shows | Status |
